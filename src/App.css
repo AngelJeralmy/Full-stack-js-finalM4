@@ -1,0 +1,76 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  width: 99vw;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+
+
+/* Estilos especificos del proyecto */
+.principal{
+  width:100%; 
+  height:100%; 
+  display:flex; 
+  flex-direction:column; 
+  justify-content:center; 
+  align-items:center;
+}
+.encabezado{
+  width:100%; 
+  height:auto; 
+  display:flex; 
+  flex-direction:column; 
+  justify-content:center; 
+  align-items:center;
+}
+.renderizado{
+  overflow-y:scroll; 
+  width:100%; 
+  height:400px; 
+  display:flex; 
+  flex-wrap:wrap; 
+  justify-content:space-around; 
+  border: solid 1px rgb(165, 161, 161);
+}
+.cardrenderizado{
+  width: 300px;
+  height: 350px;
+}
+.cardimgrenderizado{
+  height: 40%;
+  width: 100%;
+}
+.piedepagina{
+  width:100%; 
+  height:100px; 
+  justify-content:center; 
+  align-items:center; 
+  display:flex; 
+  flex-direction:column;
+}
